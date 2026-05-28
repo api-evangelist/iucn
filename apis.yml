@@ -1,0 +1,32 @@
+aid: iucn
+name: IUCN
+description: "IUCN Red List of Threatened Species"
+url: http://apiv3.iucnredlist.org/api/v3/docs
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Animals"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Animals
+  - Public APIs
+apis:
+  - name: IUCN
+    description: "IUCN Red List of Threatened Species"
+    humanURL: http://apiv3.iucnredlist.org/api/v3/docs
+    baseURL: http://apiv3.iucnredlist.org/api/v3/docs
+    tags:
+      - Animals
+    properties:
+      - type: Documentation
+        url: http://apiv3.iucnredlist.org/api/v3/docs
+common:
+  - type: Website
+    url: http://apiv3.iucnredlist.org/api/v3/docs
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
