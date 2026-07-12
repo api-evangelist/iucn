@@ -23,6 +23,8 @@ apis:
       - type: Documentation
         url: http://apiv3.iucnredlist.org/api/v3/docs
 common:
+  - type: DomainSecurity
+    url: security/iucn-domain-security.yml
   - type: Website
     url: http://apiv3.iucnredlist.org/api/v3/docs
   - type: PublicAPIsListing
